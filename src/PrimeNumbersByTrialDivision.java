@@ -27,7 +27,7 @@ public class PrimeNumbersByTrialDivision {
 
     public static void main(String[] args) {
         long s1 = System.currentTimeMillis();
-        System.out.println("Number of Primes between 3 and 1,000,000: "+nOfPrimes(3,1_000_000_000));
+        System.out.println("Number of Primes between 3 and 1,000,000: "+nOfPrimes(3,1_000_000));
         System.out.println("Number of Primes Time = "+(System.currentTimeMillis()-s1));
 
     }
