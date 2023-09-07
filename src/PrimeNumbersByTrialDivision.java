@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class PrimeNumbersByTrialDivision {
 
     public static int nOfPrimes(int startValue, int endValue) {
