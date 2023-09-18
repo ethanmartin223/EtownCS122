@@ -16,7 +16,11 @@ public class SieveOfEratosthenes {
 
     public static void main(String[] args) {
         long s1 = System.currentTimeMillis();
-        System.out.println("Number of Primes between 3 and 1,000,000: "+nOfPrimes(1_000_000));
+        System.out.println("Number of Primes between 1 and 1,000,000,000: "+nOfPrimes(1_000_000_000));
         System.out.println("Number of Primes Time = "+(System.currentTimeMillis()-s1));
+
+        //output
+        //Number of Primes between 1 and 1,000,000: 50847534
+        //Number of Primes Time = 18112
     }
 }
